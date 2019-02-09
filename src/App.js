@@ -6,6 +6,11 @@ import Home from "./components/home.component";
 import Performers from "./components/performers.component";
 import Bookings from "./components/bookings.component";
 
+/**
+ * This react application has three main routes, /, /performers, and /bookings
+ * For this assignment, we will focus on the performers route which our react app at
+ * localhost:3000 will GET the json object sent by our backend to localhost:3001
+ */
 class App extends Component {
   render() {
     return (
@@ -13,7 +18,7 @@ class App extends Component {
         <div className="container">
           <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
           <Link to="/" className="navbar-brand">WePerform</Link>
-            <div>
+            <div className="navbar-collapse">
               <ul className="navbar-nav mr-auto">
                 <li className="navbar-item">
                   <Link to="/performers" className="nav-link">Performers</Link>
@@ -34,10 +39,3 @@ class App extends Component {
 }
 
 export default App;
-
-/*
-npm install react-router-dom, express
-routes=/
-routes=/performers
-routes=/bookings
- */
