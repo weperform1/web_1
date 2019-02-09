@@ -5,7 +5,8 @@ Jason Zhou<br>
 Matthew Lau<br>
 
 This is a React, Express, Node stack used to create a "RESTish" backend.<br>
-Node and Express is used to send a JSON object to [http://localhost:3001] which is intercepted by axios through GET and displayed in the react component "performers".<br>
+Node and Express is used to send a JSON object to [http://localhost:3001] which<br>
+is intercepted by axios through GET and displayed in the react component "performers".<br>
 
 Click link to performers tab where the JSON object is listed. <br>
 
