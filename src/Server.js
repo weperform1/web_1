@@ -16,7 +16,7 @@ let performers = [
     attribute: 'Singer',
     price: '40.0',
     location: 'Coquitlam'
-  }
+  },
   {
     name: 'Parm',
     attribute: 'Dancer',
