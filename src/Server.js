@@ -35,6 +35,12 @@ let performers = [
 	price: '55.0',
 	location: 'Richmond'
   }
+  {
+	name: 'Taz',
+	attribute: 'Dancer',
+	price: '45.0',
+	location: 'Delta'
+  }
 ];
 
 app.use(cors());
