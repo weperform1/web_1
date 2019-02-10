@@ -34,9 +34,9 @@ let performers = [
 	attribute: 'Dancer',
 	price: '55.0',
 	location: 'Richmond'
-  }
+  },
   {
-	name: 'Taz',
+	name: 'Tas',
 	attribute: 'Dancer',
 	price: '45.0',
 	location: 'Delta'
