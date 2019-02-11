@@ -34,6 +34,24 @@ let performers = [
 	attribute: 'Dancer',
 	price: '55.0',
 	location: 'Richmond'
+  },
+  {
+	name: 'Taz',
+	attribute: 'Dancer',
+	price: '65.0',
+	location: 'Delta'
+  },
+  {
+	name: 'Mia',
+	attribute: 'Musician',
+	price: '120.0',
+	location: 'Burnaby'
+  },
+  {
+	name: 'Alex',
+	attribute: 'Dancer',
+	price: '42.0',
+	location: 'Langley'
   }
 ];
 
